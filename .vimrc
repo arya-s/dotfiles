@@ -106,6 +106,7 @@ vnoremap <C-c> "*y
 execute pathogen#infect()
 "Tabstop
 set tabstop=4
+set shiftwidth=4
 "Convert tabs to 4 spaces
 set expandtab
 set showmode
