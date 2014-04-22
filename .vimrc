@@ -128,3 +128,5 @@ noremap <silent> <c-b> :call smooth_scroll#up(&scroll*2, 10, 4)<CR>
 noremap <silent> <c-f> :call smooth_scroll#down(&scroll*2, 10, 4)<CR>
 "No swap files
 set noswapfile
+"No backups
+set nobackup
