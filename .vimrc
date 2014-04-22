@@ -101,7 +101,7 @@ set nu
 "Love them relative numbers
 set relativenumber
 "Copy to system clipboard
-vnoremap <D-c> "*y
+vnoremap <C-c> "*y
 "Pathogen
 execute pathogen#infect()
 "Tabstop
@@ -124,7 +124,7 @@ noremap <C-j> <C-w>j
 noremap <C-k> <C-w>k
 noremap <C-l> <C-w>l
 "Smooth scrolling using vim-smooth-scroll
-noremap <silent> <c-u> :call smooth_scroll#up(15, 0, 2)<CR>
-noremap <silent> <c-d> :call smooth_scroll#down(15, 0, 2)<CR>
 noremap <silent> <c-b> :call smooth_scroll#up(&scroll*2, 10, 4)<CR>
 noremap <silent> <c-f> :call smooth_scroll#down(&scroll*2, 10, 4)<CR>
+"No swap files
+set noswapfile
